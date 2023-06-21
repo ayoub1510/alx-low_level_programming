@@ -1,10 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+/* more headers goes there */
+
+/* betty style doc for function main goes there */
 /**
- *main	- the entry point of code
- *description:	n is negative or positive
- *Returne:	always (0)
+ * main - n is neagtive or positive
+ *
+ * Return: always 0
 */
 int main(void)
 {
@@ -32,4 +35,3 @@ int main(void)
 	printf("%d is zero\n", n);
 
 	return (0);
-
