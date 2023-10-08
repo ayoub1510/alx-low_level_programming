@@ -1,25 +1,17 @@
 #include "main.h"
 
 /**
- * *_strncpy - main
- * @dest: dest
- * @src: src
- * @n: int
- * Return: void
+ * _strlen - Returns the length of a string.
+ * @s: Pointer to a string.
+ * Return: Length of the string.
  */
 
-char *_strncpy(char *dest, char *src, int n)
+int _strlen(char *s)
 {
-	int i = 0, len = 0;
+	int i = 0;
 
-	while (src[i++])
-		len++;
+	while (s[i])
+		++i;
 
-	for (i = 0; src[i] && i < n; i++)
-		dest[i] = src[i];
-
-	for (i = len; i < n; i++)
-		dest[i] = '\0';
-
-	return (dest);
+	return (i);
 }
