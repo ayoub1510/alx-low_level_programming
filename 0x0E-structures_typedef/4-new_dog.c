@@ -1,9 +1,8 @@
 #include "dog.h"
 #include <stdlib.h>
 
-
 /**
- * _strlen - length ofstr
+ * _strlen - length of string
  * @s: string
  * Return: length
  */
@@ -36,7 +35,7 @@ char *_strcpy(char *dest, char *src)
 }
 
 /**
- * new_dog - creates a new dog
+ * new_dog - creates a new dogg
  * @name: name of old struct
  * @age: age
  * @owner: owner
@@ -64,7 +63,6 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(dogcpy);
 		return (NULL);
 	}
-	
 
 	(*dogcpy).name = _strcpy(dogcpy->name, name);
 	(*dogcpy).owner = _strcpy(dogcpy->owner, owner);
@@ -72,3 +70,76 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	return (dogcpy);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

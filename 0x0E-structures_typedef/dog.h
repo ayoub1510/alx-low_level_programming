@@ -4,10 +4,10 @@
 /**
  * struct dog - struct dog
  * @name: name of dog
- * @age: age of dog
+ * @age: age of dogg
  * @owner: owner of dog
  *
- * Description: A structure that represents a dog with its name, age,and his owner
+ * Description: A structure that represents a dog with its name, age, and owner
  */
 struct dog
 {

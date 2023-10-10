@@ -1,10 +1,8 @@
 #include "dog.h"
 #include <stdlib.h>
 
-
-
 /**
- * free_dog - free thedoggy
+ * free_dog - free the dogg
  * @d: pointer to dog
  *
  * Return: void
